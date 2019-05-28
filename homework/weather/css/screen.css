@@ -70,3 +70,7 @@ nav ul li {
     font-size: 2em;
     font-weight: 600;
   }
+
+  .top{
+      display: flex;
+  }
