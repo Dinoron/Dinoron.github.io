@@ -67,10 +67,11 @@ nav ul li {
    }
 
    #site-brand {
+    position: static;
     font-size: 2em;
     font-weight: 600;
   }
 
-  .top{
+  .locoinfo{
       display: flex;
   }
