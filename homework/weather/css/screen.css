@@ -13,6 +13,13 @@
 *  4.  Large Screen Styles (Media Queries begin here)
 *
 * ****************************** */
+
+/* 1.  Includes (fonts and supplementary stylesheets) */
+/* 1.1 Normalize Import */  
+@import url('normalize.css');   
+/* 1.2 Google Font Import */    
+@import @import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
+
 html {
     box-sizing: border-box;
    }
@@ -32,6 +39,15 @@ html {
    h6 {
        font-family: sansita, Eurostyle, sans-serif;
    }
-ul{
+   selector {  property: value; }
+
+   .tile{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+
+   ul{
     list-style: none;
 }
