@@ -5,7 +5,7 @@
   <title>Franklin, ID | Weather Site</title>
   <meta name="description" content="Short Description of the page.">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="/homework/weather/css/screen.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="/weather/css/screen.css" media="screen">
  </head>
  <body>
      <header>
@@ -21,6 +21,7 @@
             </ul>
      </nav>
      <main>
+         <section id="locoInfo" class="tile">
         <h2>Franklin, Idaho</h2>
         <dl>
             <dt>Zip:</dt>
@@ -28,21 +29,28 @@
             <dt>Elevation:</dt>
             <dd id="Elevation">4968 ft.</dd>
             <dt>Location:</dt>
+        </section>
+        <section id="temps" class="tile">
         </dl>
         <h2>Temperature</h2>
         <h1>24&deg;F</h1>
         <dl>
-            <dt>34&deg;F</dt>
-            <dt>21&deg;F</dt>
-            <dt>Feels Like 25&deg;F</dt>
+            <dt>64&deg;F</dt>
+            <dt>41&deg;F</dt>
+            <dt>Feels Like 40&deg;F</dt>
         </dl>
+        </section>
+        <section id="wind">
         <h2>Wind</h2>
         <ul>
-            <li>2 mph</li>
-            <li>Direction: NW</li>
-            <li>Gusts:5 mph</li>
+            <li>5 mph</li>
+            <li>Direction: SW</li>
+            <li>Gusts:10-12 mph</li>
         </ul>
-        <h2>Clear</h2>
+        </section>
+        <section id="summary" class="tile">
+        <h2>Rain</h2>
+        </section>
         <dl>
             <dd>10am:</dd>
             <dt id="10">41&deg;F</dt>
@@ -72,6 +80,7 @@
             <dt id="10pm">55&deg;F</dt>
 
         </dl>
+       
      </main>
      <footer>
             &copy;2019 The Weather Site 
