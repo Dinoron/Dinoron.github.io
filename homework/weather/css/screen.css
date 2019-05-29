@@ -88,3 +88,7 @@ nav ul li {
     height: 50px;
     width: 50px;
   }
+
+  .zip{
+    display: flex;
+  }
