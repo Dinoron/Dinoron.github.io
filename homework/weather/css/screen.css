@@ -79,3 +79,7 @@ nav ul li {
   .li{
     display: block;
   }
+
+  #bottom{
+    display: flex;
+  }
