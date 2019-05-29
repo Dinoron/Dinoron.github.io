@@ -75,3 +75,7 @@ nav ul li {
   .locoinfo{
       display: flex;
   }
+
+  .top{
+    display: flex;
+  }
