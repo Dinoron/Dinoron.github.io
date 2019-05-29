@@ -99,7 +99,7 @@ nav ul li {
     display: flex;
   }
 
-  .bottom{
+  #bottom{
     float: left;
     clear: left;
   }
