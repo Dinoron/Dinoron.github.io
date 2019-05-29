@@ -100,10 +100,9 @@ nav ul li {
   }
 
   #bottom{
-    float: left;
-    clear: left;
+  display: inline;  
   }
 #zip{
-  font-size: 10px;
+  font-size: 15px;
 }
   
