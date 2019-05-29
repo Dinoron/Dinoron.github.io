@@ -106,3 +106,9 @@ nav ul li {
 dd{
   display: flex;  
   }
+  dt{
+    display: flex;  
+    }
+dl {
+  display: flex;  
+  }
