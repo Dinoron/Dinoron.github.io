@@ -72,10 +72,7 @@ nav ul li {
     font-weight: 600;
   }
 
-  .locoinfo{
-      display: flex;
-  }
 
   .top{
-    display: flex;
+    display: flex-flow;
   }
