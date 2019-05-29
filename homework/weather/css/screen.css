@@ -57,7 +57,7 @@ nav ul li {
   }
 
   nav {
-    
+    position: fixed;
     bottom: 0;
     left: 0;
   }
@@ -75,4 +75,7 @@ nav ul li {
 
   .top{
     display: flex-flow;
+  }
+  .li{
+    display: block;
   }
