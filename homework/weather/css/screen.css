@@ -93,6 +93,9 @@ nav ul li {
     display: flex;
   }
 
-  .locoInfo{
+  #locoInfo{
+    text-align: center;
+  }
+  .temps{
     text-align: center;
   }
