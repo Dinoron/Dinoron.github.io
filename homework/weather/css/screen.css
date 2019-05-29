@@ -94,4 +94,9 @@ nav ul li {
     display: flex;
   }
 
+  .bottom{
+    float: left;
+    clear: left;
+  }
+
   
