@@ -92,3 +92,7 @@ nav ul li {
   .zip{
     display: flex;
   }
+
+  .locoInfo,.temps,.wind,{
+    text-align: center;
+  }
