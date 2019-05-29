@@ -83,3 +83,8 @@ nav ul li {
   #bottom{
     display: block;
   }
+
+  #logo{
+    height: 50px;
+    width: 50px;
+  }
