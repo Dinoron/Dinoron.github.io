@@ -86,8 +86,8 @@ nav ul li {
     display: inline;
   }
 
-  #k{
-    height: 40px;
+  .k{
+    height: -10px;
   }
 
   .logo{
@@ -103,6 +103,6 @@ nav ul li {
 #zip{
   font-size: 15px;
 }
-dl{
+dd{
   display: flex;  
   }
