@@ -93,6 +93,6 @@ nav ul li {
     display: flex;
   }
 
-  .locoInfo,.temps,.wind,{
+  .locoInfo{
     text-align: center;
   }
