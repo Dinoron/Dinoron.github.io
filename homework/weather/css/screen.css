@@ -97,8 +97,8 @@ nav ul li {
 
  
 
-  #bottom{
-  display: inline;  
+  .summary{
+  display: flex;  
   }
 #zip{
   font-size: 15px;
