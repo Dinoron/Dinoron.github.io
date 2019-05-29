@@ -83,7 +83,7 @@ nav ul li {
     display: flex-flow;
   }
   .li{
-    display: block;
+    display: flex;
   }
 
   .k{
