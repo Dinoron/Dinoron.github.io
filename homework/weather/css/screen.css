@@ -87,7 +87,7 @@ nav ul li {
   }
 
   #k{
-    height: 20px;
+    height: 30px;
   }
 
   #logo{
@@ -103,4 +103,6 @@ nav ul li {
 #zip{
   font-size: 15px;
 }
-  
+dl{
+  display: flex;  
+  }
