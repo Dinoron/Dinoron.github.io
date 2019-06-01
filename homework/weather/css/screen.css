@@ -51,8 +51,7 @@ html {
     background-color: rgba(200,200,200,.6);
     margin: .2em auto;
     border: 1px solid;
-    border-radius: 15px;
-    text-align: center;
+    border-radius: 15px;    
     display: flex;
     flex-wrap:wrap;
     
@@ -116,3 +115,7 @@ dd{
 dl {
   display: flex;  
   }
+
+ .rain{
+  text-align: center;
+ } 
