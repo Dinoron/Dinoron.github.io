@@ -85,10 +85,7 @@ nav ul li {
   .top{
     display: flex-flow;
   }
-  .li{
-    display: inline;
-  }
-
+ 
   .k{
     height: -10px;
   }
