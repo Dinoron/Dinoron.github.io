@@ -54,7 +54,7 @@ html {
     border-radius: 15px;    
     display: flex;
     flex-wrap:wrap;
-    
+    text-align: center;
   }
    ul{
     list-style: none;
@@ -119,3 +119,4 @@ dl {
  .rain{
   text-align: center;
  } 
+
