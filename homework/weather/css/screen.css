@@ -95,11 +95,20 @@ nav ul li {
     width: 40px;
   }
 
- 
+  
+  #zip{
+    font-size: 15px;
+  }
+  dd{
+    display: flex;  
+    }
+    dt{
+      display: flex;  
+      }
+  dl {
+    display: flex;  
+    }
 
   
 
- .rain{
-  text-align: center;
- } 
-
+ 
