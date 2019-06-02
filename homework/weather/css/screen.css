@@ -97,21 +97,7 @@ nav ul li {
 
  
 
-  .summary{
-  display: flex;  
-  }
-#zip{
-  font-size: 15px;
-}
-dd{
-  display: flex;  
-  }
-  dt{
-    display: flex;  
-    }
-dl {
-  display: flex;  
-  }
+  
 
  .rain{
   text-align: center;
