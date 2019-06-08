@@ -2,7 +2,7 @@
     display: none
 }
 
-@media (max-width:799px) {
+@media (min-width:500px) {
     .short-text {display: inline-block;}
     .full-text{display:none}
 }
