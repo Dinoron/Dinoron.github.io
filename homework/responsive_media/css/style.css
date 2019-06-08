@@ -218,8 +218,8 @@ background-image: url(/grand/banner\(400\).jpg), url(/grand/logos.jpg);
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-		background-image:url(/grand/banner\(1200\).jpg), url(/grand/logoj.jpg);
-		
+		background-image:url(/grand/banner\(1200\).jpg), url(/grand/logoj.jpg); 
+		background-repeat: no-repeat, repeat;
 	}
 	.page-nav li {
 		flex: 0 1 10%;
