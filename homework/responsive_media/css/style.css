@@ -218,7 +218,7 @@ h1 {
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-		background-image:grand/banner(1200)
+		background-image:url(/grand/banner\(1200\).jpg)
 	}
 	.page-nav li {
 		flex: 0 1 10%;
