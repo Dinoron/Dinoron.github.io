@@ -50,8 +50,8 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-background-image: url(/grand/nps-logo\(150\).png), url(/grand/banner\(400\).jpg);
-background-repeat: repeat, no-repeat;
+background-image: url(/grand/nps-logo\(50\).png), url(/grand/banner\(400\).jpg);
+
 }
 
 
