@@ -218,7 +218,7 @@ h1 {
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-		background-image:url(/grand/banner\(1200\).jpg)
+		background-image:url(/grand/banner\(1200\).jpg) , url(/grand/nps-logo\(150\).png)  
 	}
 	.page-nav li {
 		flex: 0 1 10%;
