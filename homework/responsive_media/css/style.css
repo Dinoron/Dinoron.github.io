@@ -51,7 +51,7 @@ h1 {
 
 .page-header {
 background-image: url(/grand/banner\(400\).jpg), url(/grand/nps-logo\(150\).png);
-background-repeat: repeat, repeat;
+background-repeat: repeat, no-repeat;
 }
 
 
@@ -220,7 +220,7 @@ background-repeat: repeat, repeat;
 	/*	Background Images - Use with large screens */
 	.page-header {
 		background-image:url(/grand/banner\(1200\).jpg), url(/grand/nps-logo\(150\).png); 
-		background-repeat: repeat, repeat;
+		background-repeat: repeat, no-repeat;
 	}
 	.page-nav li {
 		flex: 0 1 10%;
