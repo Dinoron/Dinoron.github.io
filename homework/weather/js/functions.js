@@ -11,7 +11,7 @@ const temp = 31;
 const speed = 5;
 buildWC(speed, temp);
 
-const direction = "SSW"; //Set your own value
+const direction = "NNE";
 windDial(direction);
 
 function buildWC(speed, temp) {
