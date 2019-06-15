@@ -5,10 +5,13 @@
 // Weather Site JavaScript Functions
 
 console.log('My javascript is being read.');
-
+// wind temp function
+const temp = 31;
+const speed = 5;
+buildWC(speed, temp);
 
 const direction = "NNE";
-windDial(direction);
+windDial(direction)
 
 
 function buildWC(speed, temp) {
@@ -35,6 +38,7 @@ feelTemp.innerHTML = wc;
 }
 
 // Wind Dial Function
+
 function windDial(direction){
     // Get the container
     const dial = document.getElementById("dial");
