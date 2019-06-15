@@ -7,6 +7,9 @@
 console.log('My javascript is being read.');
 
 // wind temp function
+const temp = 31;
+const speed = 5;
+buildWC(speed, temp);
 
 function buildWC(speed, temp) {
 
