@@ -10,7 +10,8 @@ console.log('My javascript is being read.');
 const temp = 31;
 const speed = 5;
 buildWC(speed, temp);
-const direction = "NNE"; //Set your own value
+
+const direction = "SSW"; //Set your own value
 windDial(direction);
 
 function buildWC(speed, temp) {
