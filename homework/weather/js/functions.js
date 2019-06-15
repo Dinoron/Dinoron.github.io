@@ -7,7 +7,7 @@
 console.log('My javascript is being read.');
 
 
-const direction = "NNE";
+const direction = "w";
 windDial(direction);
 
 
