@@ -41,7 +41,7 @@ feelTemp.innerHTML = wc;
 
 function windDial(direction){
     // Get the container
-    const dial = document.getElementById("dial");
+    const dials = document.getElementById("dials");
     console.log(direction);
     // Determine the dial class
     switch (direction){
