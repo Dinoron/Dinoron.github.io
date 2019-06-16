@@ -117,4 +117,27 @@ nav ul li {
       margin: -.6em auto 0;
      }
 
-    
+     #curWeather {
+      background-size: cover;
+     }
+     
+     /* Background pictures for summary */
+     .clear {
+      background-image: url("/weather-images/clear\(small\).jpg");
+     }
+
+     .rain {
+       background-image: url("/weather-images/rain\(small\).jpg")
+     }
+
+     .snow {
+       background-image: url("/weather-images/snow\(small\).jpg")
+     }
+
+     .fog {
+       background-image: url("/weather-images/fog\(small\).jpg")
+     }
+
+     .cloud {
+       background-image: url("/weather-images/clouds\(small2\).jpg")
+     }
