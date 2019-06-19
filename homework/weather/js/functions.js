@@ -7,11 +7,11 @@
 console.log('My javascript is being read.');
 // wind temp function
 
-const temp = 31;
-const speed = 5;
+let temp = 31;
+let speed = 5;
 buildWC(speed, temp);
 
-const direction = "NNE";
+let direction = "NNE";
 windDial(direction)
 
 
@@ -19,7 +19,7 @@ function buildWC(speed, temp) {
 
 
 
-const feelTemp = document.getElementById('feelTemp');
+let feelTemp = document.getElementById('feelTemp');
 
 // Compute the windchill
 let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
@@ -42,7 +42,7 @@ feelTemp.innerHTML = wc;
 
 function windDial(direction){
     // Get the container
-    const dials = document.getElementById("dials");
+    let dials = document.getElementById("dials");
     console.log(direction);
     // Determine the dial class
     switch (direction){
