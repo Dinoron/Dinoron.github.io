@@ -53,11 +53,16 @@ html {
     border: 1px solid;
     border-radius: 15px;    
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     text-align: center;
+
   }
    ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
 }
 
 nav ul li { 
