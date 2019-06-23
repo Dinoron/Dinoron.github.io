@@ -85,5 +85,6 @@ function windDial(direction){
     }
    }
    
+   
 
    
