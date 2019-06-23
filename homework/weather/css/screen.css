@@ -141,3 +141,83 @@ nav ul li {
      .cloud {
        background-image: url("/weather-images/clouds\(small2\).jpg")
      }
+
+/***************************************************
+*  3. Mobile First Styles
+****************************************************/
+nav {
+  bottom: 0;
+  left: 0;
+  order:2;
+  background-color:#0e89d5;
+}
+
+#locZEL{
+  font-size: .5em;
+}
+
+
+
+#tile{
+  display: flex;
+  flex-direction: column;
+}
+
+#curWeather {
+  background-size: cover;
+ }
+ 
+ /* Background pictures for summary */
+ .clear {
+  background-image: url("/weather-images/clear\(small\).jpg");
+ }
+
+ .rain {
+   background-image: url("/weather-images/rain\(small\).jpg")
+ }
+
+ .snow {
+   background-image: url("/weather-images/snow\(small\).jpg")
+ }
+
+ .fog {
+   background-image: url("/weather-images/fog\(small\).jpg")
+ }
+
+ .cloud {
+   background-image: url("/weather-images/clouds\(small2\).jpg")
+ }
+
+ /***************************************************
+*  4.  Large Screen Styles (Media Queries begin here)
+****************************************************/
+@media screen and (min-width: 760px){
+  #page-Header{
+      font-size: 5em;
+  }
+
+  #curWeather {
+    background-size: cover;
+   }
+   
+   /* Background pictures for summary */
+   .clear {
+    background-image: url("/weather-images/clear\(small\).jpg");
+   }
+  
+   .rain {
+     background-image: url("/weather-images/rain\(small\).jpg")
+   }
+  
+   .snow {
+     background-image: url("/weather-images/snow\(small\).jpg")
+   }
+  
+   .fog {
+     background-image: url("/weather-images/fog\(small\).jpg")
+   }
+  
+   .cloud {
+     background-image: url("/weather-images/clouds\(small2\).jpg")
+   }
+  }
