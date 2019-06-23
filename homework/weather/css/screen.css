@@ -57,7 +57,13 @@ html {
     flex-direction: row;
   }
 
-  
+  #temp li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    
+  }
    ul{
     list-style: none;
     display: flex;
