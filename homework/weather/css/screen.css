@@ -230,6 +230,11 @@ min-width: 33%;
   justify-content: flex-start;
         font-size: 1.2em;
 }
+
+#wind{
+  justify-content: flex-start;
+        font-size: 1.2em;
+}
   
   
   #curWeather {
