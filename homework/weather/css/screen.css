@@ -241,7 +241,10 @@ min-width: 33%;
 }
 
 #dial{
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
 }
   
   #curWeather {
