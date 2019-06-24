@@ -71,13 +71,7 @@ html {
 
  
 
-  #temp li{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    
-  }
+  
    ul{
     list-style: none;
     display: flex;
@@ -86,10 +80,7 @@ html {
     padding-left: 0;
 }
 
-nav ul li { 
-    display: inline-block; 
-    list-style: none; 
-  }
+
   
 
   footer{
@@ -99,13 +90,7 @@ nav ul li {
    
 
 
-  .top{
-    display: flex-flow;
-  }
- 
-  .k{
-    height: -10px;
-  }
+  
 
   .logo{
     height: 40px;
