@@ -69,7 +69,14 @@ html {
     flex-direction: row;
   }
 
- 
+  #templi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    
+  }
+
 
   
    ul{
