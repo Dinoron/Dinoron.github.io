@@ -50,13 +50,7 @@ html {
     text-align: center;
   }
 
-  nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-    padding-left: 0;
-  }
+  
  
   
     #summary{
