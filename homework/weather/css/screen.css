@@ -226,26 +226,6 @@ nav {
 min-width: 33%;
 }
 
-#locoinfo{
-  justify-content: flex-start;
-        font-size: 1.2em;
-}
-
-#windx{
-  justify-content: flex-start;
-        font-size: 1.2em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 100%;     
-}
-
-#dial{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 100%;
-}
   
   #curWeather {
     background-size: cover;
