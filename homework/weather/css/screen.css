@@ -215,7 +215,9 @@ nav {
   nav{
     order: 0;
 }
-
+#big{
+  flex-direction: row;
+}
 
 #curWeather section{
 min-width: 33%;
