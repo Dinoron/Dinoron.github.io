@@ -211,7 +211,16 @@ nav {
 min-width: 33%;
 }
 
-  
+#curWeather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+#locoinfo{
+  justify-content: flex-start;
+  font-size: 1.2em;
+}
   #curWeather {
     background-size: cover;
    }
