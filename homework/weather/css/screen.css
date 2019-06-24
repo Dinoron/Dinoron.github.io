@@ -120,7 +120,11 @@ html {
   dl {
     display: flex;  
     }
-
+    
+    .hide{
+      display: none;
+    }
+    
     #dial {
       height: 150px;
       width: 150px;
