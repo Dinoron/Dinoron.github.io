@@ -234,8 +234,15 @@ min-width: 33%;
 #windx{
   justify-content: flex-start;
         font-size: 1.2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;     
 }
-  
+
+#dial{
+
+}
   
   #curWeather {
     background-size: cover;
