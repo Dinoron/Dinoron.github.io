@@ -169,7 +169,7 @@ nav {
   background-color:#0e89d5;
 }
 
-#locZEL{
+#locoinfo{
   font-size: .5em;
 }
 
@@ -212,7 +212,12 @@ nav {
   #page-Header{
       font-size: 5em;
   }
+  nav{
+    order: 0;
+}
 
+  
+  
   #curWeather {
     background-size: cover;
    }
