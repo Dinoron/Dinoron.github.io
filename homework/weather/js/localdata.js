@@ -1,6 +1,6 @@
 "use strict";
 
-
+fetchData(weatherURL);
 
 
 let pageNav = document.getElementById('page-nav');
